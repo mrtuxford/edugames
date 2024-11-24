@@ -1,0 +1,437 @@
+{
+    "L1PHY_Energy_Concepts": [
+        {
+            "round": 1,
+            "statements": [
+              { "text": "Kinetic energy is calculated using the formula E_k = 1/2 mv^2", "isTrue": true },
+              { "text": "Kinetic energy is measured in Joules", "isTrue": true },
+              { "text": "Kinetic energy decreases as velocity increases", "isTrue": false }
+            ]
+          },
+          {
+            "round": 2,
+            "statements": [
+              { "text": "Work done is calculated using the formula W = Fd", "isTrue": true },
+              { "text": "Work done is measured in Newtons", "isTrue": false },
+              { "text": "Work is energy transferred", "isTrue": true }
+            ]
+          },
+          {
+            "round": 3,
+            "statements": [
+              { "text": "Gravitational potential energy is calculated using E_p = mgΔh", "isTrue": true },
+              { "text": "Gravitational potential energy increases as height increases", "isTrue": true },
+              { "text": "Gravitational potential energy is independent of mass", "isTrue": false }
+            ]
+          },
+          {
+            "round": 4,
+            "statements": [
+              { "text": "In a frictionless system, E_p = E_k", "isTrue": true },
+              { "text": "Energy can be created or destroyed in a closed system", "isTrue": false },
+              { "text": "The total energy in a closed system remains constant", "isTrue": true }
+            ]
+          },
+          {
+            "round": 5,
+            "statements": [
+              { "text": "Final speed can be calculated using the equation E_p = E_k", "isTrue": true },
+              { "text": "The equation v = √(2gh) can be derived from E_p = E_k", "isTrue": true },
+              { "text": "The final speed of a falling object is less than its initial speed in a fall", "isTrue": false }
+            ]
+          },
+          {
+            "round": 6,
+            "statements": [
+              { "text": "The relationship between power, energy, and time is E = Pt", "isTrue": true },
+              { "text": "Power is measured in Watts", "isTrue": true },
+              { "text": "Energy is the rate at which work is done", "isTrue": false }
+            ]
+          },
+          {
+            "round": 7,
+            "statements": [
+              { "text": "Efficiency is always expressed as a percentage", "isTrue": true },
+              { "text": "An efficiency of 100% means all input energy is converted to useful output", "isTrue": true },
+              { "text": "Efficiency can be greater than 100% in some machines", "isTrue": false }
+            ]
+          },
+          {
+            "round": 8,
+            "statements": [
+              { "text": "Force is measured in Newtons", "isTrue": true },
+              { "text": "Energy is measured in Joules", "isTrue": true },
+              { "text": "Power is measured in Newtons per second", "isTrue": false }
+            ]
+          },
+          {
+            "round": 9,
+            "statements": [
+              { "text": "The acceleration due to gravity on Earth is approximately 9.8 ms^-2", "isTrue": true },
+              { "text": "Gravity is sometimes rounded to 10 ms^-2 for calculations", "isTrue": true },
+              { "text": "Gravity is the same everywhere on Earth's surface", "isTrue": false }
+            ]
+          },
+          {
+            "round": 10,
+            "statements": [
+              { "text": "Kinetic energy can be converted to gravitational potential energy", "isTrue": true },
+              { "text": "Energy conversions always involve some energy loss to heat", "isTrue": true },
+              { "text": "It's impossible to convert gravitational potential energy to kinetic energy", "isTrue": false }
+            ]
+          },
+          {
+            "round": 11,
+            "statements": [
+              { "text": "In a series circuit, the current is the same throughout the circuit", "isTrue": true },
+              { "text": "In a parallel circuit, the voltage is the same across each parallel branch", "isTrue": true },
+              { "text": "In a series circuit, the total resistance is less than any individual resistor", "isTrue": false }
+            ]
+          },
+          {
+            "round": 12,
+            "statements": [
+              { "text": "Ohm's Law is expressed as V = IR", "isTrue": true },
+              { "text": "The unit of resistance (R) is the ohm (Ω)", "isTrue": true },
+              { "text": "Ohm's Law applies to all electrical components", "isTrue": false }
+            ]
+          },
+          {
+            "round": 13,
+            "statements": [
+              { "text": "The relationship between energy, power, and time is expressed as E = Pt", "isTrue": true },
+              { "text": "Energy is measured in joules (J)", "isTrue": true },
+              { "text": "Power is measured in watts per second (W/s)", "isTrue": false }
+            ]
+          },
+          {
+            "round": 14,
+            "statements": [
+              { "text": "Current is measured in amperes (A)", "isTrue": true },
+              { "text": "Voltage is the pressure that pushes electric charges through a wire", "isTrue": true },
+              { "text": "Resistance is measured in watts (W)", "isTrue": false }
+            ]
+          },
+          {
+            "round": 15,
+            "statements": [
+              { "text": "Power can be calculated using the formula P = IV", "isTrue": true },
+              { "text": "Power is the rate at which energy is transferred", "isTrue": true },
+              { "text": "The unit of power is the joule (J)", "isTrue": false }
+            ]
+          },
+          {
+            "round": 16,
+            "statements": [
+              { "text": "Electrical energy is converted to heat in a resistor", "isTrue": true },
+              { "text": "The amount of heat produced is independent of the current flowing through the resistor", "isTrue": false },
+              { "text": "This conversion in a resistor is an example of the law of conservation of energy", "isTrue": true }
+            ]
+          },
+          {
+            "round": 17,
+            "statements": [
+              { "text": "Batteries convert chemical energy to electrical energy", "isTrue": true },
+              { "text": "The voltage of a battery depends on its chemical composition", "isTrue": true },
+              { "text": "Batteries can convert electrical energy back into chemical energy indefinitely", "isTrue": false }
+            ]
+          },
+          {
+            "round": 18,
+            "statements": [
+              { "text": "Efficiency is calculated by dividing output power by input power", "isTrue": true },
+              { "text": "An electrical system can have an efficiency greater than 100%", "isTrue": false },
+              { "text": "Improving efficiency can reduce energy waste and costs", "isTrue": true }
+            ]
+          },
+          {
+            "round": 19,
+            "statements": [
+              { "text": "The total resistance in a series circuit is the sum of individual resistances", "isTrue": true },
+              { "text": "The formula for total resistance in series is R_t = R_1 + R_2 + ...", "isTrue": true },
+              { "text": "Adding resistors in series always decreases the total resistance", "isTrue": false }
+            ]
+          },
+          {
+            "round": 20,
+            "statements": [
+              { "text": "Conductors have low resistance to electric current", "isTrue": true },
+              { "text": "Insulators have high resistance to electric current", "isTrue": true },
+              { "text": "All metals are good conductors, and all non-metals are good insulators", "isTrue": false }
+            ]
+          },
+          {
+            "round": 21,
+            "statements": [
+              { "text": "The formula E = mcΔT is used to calculate energy transfer during temperature changes", "isTrue": true },
+              { "text": "'c' in the formula represents specific heat capacity", "isTrue": true },
+              { "text": "The unit for specific heat capacity is J/kg", "isTrue": false }
+            ]
+          },
+          {
+            "round": 22,
+            "statements": [
+              { "text": "The formula E = mL is used when a substance changes phase", "isTrue": true },
+              { "text": "'L' represents the latent heat of the substance", "isTrue": true },
+              { "text": "Latent heat is the energy required to change the temperature of a substance", "isTrue": false }
+            ]
+          },
+          {
+            "round": 23,
+            "statements": [
+              { "text": "Conduction involves the transfer of heat through direct contact", "isTrue": true },
+              { "text": "Convection can only occur in liquids", "isTrue": false },
+              { "text": "Radiation does not require a medium for heat transfer", "isTrue": true }
+            ]
+          },
+          {
+            "round": 24,
+            "statements": [
+              { "text": "Increasing temperature increases the average kinetic energy of particles", "isTrue": true },
+              { "text": "In a gas, all particles have exactly the same kinetic energy", "isTrue": false },
+              { "text": "Kinetic energy of particles is related to their speed", "isTrue": true }
+            ]
+          },
+          {
+            "round": 25,
+            "statements": [
+              { "text": "Heat always flows from a hotter object to a colder object", "isTrue": true },
+              { "text": "The rate of heat transfer depends on the temperature difference", "isTrue": true },
+              { "text": "Heat transfer will continue until the objects reach different temperatures", "isTrue": false }
+            ]
+          },
+          {
+            "round": 26,
+            "statements": [
+              { "text": "Friction always produces heat", "isTrue": true },
+              { "text": "The amount of heat produced by friction is independent of the force applied", "isTrue": false },
+              { "text": "Friction can convert mechanical energy into thermal energy", "isTrue": true }
+            ]
+          },
+          {
+            "round": 27,
+            "statements": [
+              { "text": "A heating curve shows the relationship between temperature and time or energy added", "isTrue": true },
+              { "text": "During a phase change, the temperature of a substance remains constant", "isTrue": true },
+              { "text": "The slope of a heating curve is always positive", "isTrue": false }
+            ]
+          },
+          {
+            "round": 28,
+            "statements": [
+              { "text": "Most materials expand when heated", "isTrue": true },
+              { "text": "The degree of expansion is the same for all materials", "isTrue": false },
+              { "text": "Thermal expansion can cause bridges to lengthen in summer", "isTrue": true }
+            ]
+          },
+          {
+            "round": 29,
+            "statements": [
+              { "text": "Thermal equilibrium is reached when two objects have the same temperature", "isTrue": true },
+              { "text": "Heat transfer stops when thermal equilibrium is reached", "isTrue": true },
+              { "text": "Thermal equilibrium can only be achieved between solids", "isTrue": false }
+            ]
+          },
+          {
+            "round": 30,
+            "statements": [
+              { "text": "Insulation reduces heat transfer", "isTrue": true },
+              { "text": "The effectiveness of insulation depends on its thickness and material properties", "isTrue": true },
+              { "text": "A perfect insulator would completely stop all forms of heat transfer", "isTrue": false }
+            ]
+          }        
+    ],
+    "L1PHY_Investigative_Approaches": [
+
+    ],
+    "L1PHY_Mechanics_Investigation": [
+
+    ],
+    "L2PHY_Atomic_and_Nuclear": [
+
+    ],
+    "L2PHY_Investigation": [
+
+    ],
+    "L2PHY_Mechanics": [
+
+    ],
+    "L2PHY_Electricity": [
+      {
+        "round": 1,
+        "statements": [
+          { "text": "The electric field lines in a uniform electric field are parallel and equally spaced.", "isTrue": true },
+          { "text": "The force experienced by a charge in a uniform electric field is constant in magnitude and direction.", "isTrue": true },
+          { "text": "The electric field strength acting on a charge in a uniform field changes as it moves.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 2,
+        "statements": [
+          { "text": "Electric field strength is a vector quantity measured in newtons per coulomb (N/C).", "isTrue": true },
+          { "text": "The electric field strength at a point is defined as the force per unit charge experienced by a positive test charge placed at that point.", "isTrue": true },
+          { "text": "The electric field strength between two parallel plates is directly proportional to the distance between the plates.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 3,
+        "statements": [
+          { "text": "The force on a positive charge in an electric field is in the same direction as the electric field.", "isTrue": true },
+          { "text": "The magnitude of the force on a charge in an electric field is given by F = qE, where q is the charge and E is the electric field strength.", "isTrue": true },
+          { "text": "The force on a charge in an electric field is always attractive, regardless of the charge's sign.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 4,
+        "statements": [
+          { "text": "Electric potential energy is a scalar quantity measured in joules (J).", "isTrue": true },
+          { "text": "The change in electric potential energy of a charge moving in an electric field depends only on its initial and final positions, not on the path taken.", "isTrue": true },
+          { "text": "Electric potential energy always increases when a positive charge moves in the direction of the electric field.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 5,
+        "statements": [
+          { "text": "The work done by an electric field on a charge is equal to the change in the charge's kinetic energy.", "isTrue": true },
+          { "text": "The work done by an electric field on a charge is always positive, regardless of the direction of motion.", "isTrue": false },
+          { "text": "The work done by an electric field on a charge moving at a constant speed perpendicular to the field lines is zero.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 6,
+        "statements": [
+          { "text": "In a circuit diagram, a line connecting components represents a wire with negligible resistance.", "isTrue": true },
+          { "text": "A rectangle (or a zigzag) symbol represents a resistor in a circuit diagram.", "isTrue": true },
+          { "text": "The symbol for a battery in a circuit diagram has the shorter line on the positive terminal side.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 7,
+        "statements": [
+          { "text": "The current through a series circuit is the same at all points.", "isTrue": true },
+          { "text": "The sum of the voltage drops across components in a parallel branch always equals the voltage of the power source.", "isTrue": false },
+          { "text": "In a circuit diagram, components connected to the same two points are in parallel.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 8,
+        "statements": [
+          { "text": "In a series circuit, the total resistance is the sum of individual resistances.", "isTrue": true },
+          { "text": "The current is the same through each component in a series circuit.", "isTrue": true },
+          { "text": "The voltage across each component in a series circuit is always equal.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 9,
+        "statements": [
+          { "text": "For parallel branches, the voltage across each branch is the same.", "isTrue": true },
+          { "text": "The total current for parallel barnches is less than the current through any individual branch.", "isTrue": false },
+          { "text": "The reciprocal of the total resistance in a parallel circuit equals the sum of the reciprocals of individual resistances.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 10,
+        "statements": [
+          { "text": "In a combined circuit, Kirchhoff's voltage law states that the sum of voltage drops around any closed loop is zero.", "isTrue": true },
+          { "text": "Kirchhoff's current law states that the sum of currents entering a junction equals the sum of currents leaving it.", "isTrue": true },
+          { "text": "The equivalent resistance of a combined circuit is always less than the largest individual resistance in the circuit.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 11,
+        "statements": [
+          { "text": "Voltage is a measure of the potential difference between two points in a circuit.", "isTrue": true },
+          { "text": "The SI unit of voltage is the volt (V), which is equivalent to joules per coulomb (J/C).", "isTrue": true },
+          { "text": "Voltage is always conserved in a circuit, meaning the sum of voltages around any loop must be positive.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 12,
+        "statements": [
+          { "text": "Electric current is defined as the rate of flow of charge past a point in a circuit.", "isTrue": true },
+          { "text": "The SI unit of current is the ampere (A), which is equivalent to energy per second (J/s).", "isTrue": false },
+          { "text": "In a combined circuit with multiple resistors, the current is not always highest through the resistor with the least resistance.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 13,
+        "statements": [
+          { "text": "The simplified formula for the equivalent resistance of two resistors in parallel is R_eq = (R1 * R2) / (R1 + R2).", "isTrue": true },
+          { "text": "For resistors in parallel, the equivalent resistance is always less than the smallest individual resistance.", "isTrue": true },
+          { "text": "The equivalent resistance of resistors in series is not always greater than the largest individual resistance.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 14,
+        "statements": [
+          { "text": "In a circuit made of wires with no resistance, all electrical energy is converted to light energy in the bulbs.", "isTrue": false },
+          { "text": "The energy dissipated as heat in a resistor is given by E = I²Rt, where I is current, R is resistance, and t is time.", "isTrue": true },
+          { "text": "The energy transferred in an electrical circuit is measured in joules (J).", "isTrue": true }
+        ]
+      },
+      {
+        "round": 15,
+        "statements": [
+          { "text": "Electrical power is measured in watts (W), which is equivalent to joules per second (J/s).", "isTrue": true },
+          { "text": "In a series circuit, the power dissipated is always equally distributed among all resistors.", "isTrue": false },
+          { "text": "The power dissipated in a resistor can be calculated using P = VI, where V is voltage and I is current.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 16,
+        "statements": [
+          { "text": "The force on a current-carrying conductor in a magnetic field is maximum when the conductor is perpendicular to the field.", "isTrue": true },
+          { "text": "The direction of the force can be determined using the right hand slap rule.", "isTrue": true },
+          { "text": "The magnitude of the force is directly proportional to the square of the current in the conductor.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 17,
+        "statements": [
+          { "text": "The magnetic force on a charged particle moving in a magnetic field is always perpendicular to both the velocity of the particle and the magnetic field.", "isTrue": true },
+          { "text": "The magnitude of the magnetic force on a charged particle is given by F = vB sin θ, where v is velocity, B is magnetic field strength, and θ is the angle between v and B.", "isTrue": false },
+          { "text": "A charged particle moving parallel to a magnetic field experiences no magnetic force.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 18,
+        "statements": [
+          { "text": "In a simple DC motor, the commutator reverses the current direction in the coil every half rotation.", "isTrue": true },
+          { "text": "The torque on the coil of a DC motor is maximum when the coil’s velocity is parallel to the magnetic field.", "isTrue": false },
+          { "text": "Increasing the number of turns in the coil of a DC motor increases its torque.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 19,
+        "statements": [
+          { "text": "The induced voltage in a conductor moving through a magnetic field is directly proportional to the conductor's length, velocity, and the magnetic field strength.", "isTrue": true },
+          { "text": "The positive side of the induced voltage can be determined using right hand slap rule.", "isTrue": true },
+          { "text": "The induced voltage is maximum when the conductor moves at 45 degrees to the magnetic field lines.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 20,
+        "statements": [
+          { "text": "The frequency of the output voltage in a generator is indepenednt of the rotation speed of the coil.", "isTrue": false },
+          { "text": "A simple AC generator produces a sinusoidal output voltage.", "isTrue": true },
+          { "text": "In a simple generator, the maximum induced voltage occurs when the coil is perpendicular to the magnetic field.", "isTrue": true }
+        ]
+      }     
+    ],
+    "L3PHY_Modern_Physics": [
+
+    ],
+    "L3PHY_Investigation": [
+
+    ],
+    "L3PHY_Mechanics": [
+
+    ],
+    "L3PHY_Electricity": [
+
+    ],
+    "L3PHY_Waves": [
+
+    ]
+    
+}

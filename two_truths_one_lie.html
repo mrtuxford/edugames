@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Two Truths One Lie</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <style>
+        .btn-large { font-size: 1.2rem; padding: 15px; margin: 5px; width: 100%; }
+        .btn-correct { background-color: #28a745 !important; color: white; }
+        .btn-incorrect { background-color: #9b3943 !important; color: white; }
+        .round-card { padding: 20px; margin-bottom: 30px; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="index.html">LearnBro</a>
+    </nav>
+
+    <div class="container my-5">
+      <h1 class="text-center"><i class="fas fa-question-circle"></i>Two Truths One Lie</h1>
+
+      <!-- Description of game -->
+      <div class="row text-center mb-3">
+        <div class="col-md-12">
+          <p>
+            Select the lie(s?) amongst the truths. <br>
+            Correctly identified lies will turn green. <br>
+            Incorrectly identified truths will turn red. <br>
+            For each statement, explain why it is a lie or the truth. <br>
+            Think carefully!
+          </p>
+        </div>
+      </div>
+    </div>
+
+      
+<!-- Rounds Container -->
+<div class="container p-5">
+  <div id="roundsContainer"></div>
+</div>
+
+
+<script>
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Retrieve the selected topic from localStorage
+  const selectedTopic = localStorage.getItem('selectedTopic');
+
+  if (selectedTopic) {
+    loadTopic(selectedTopic);
+  } else {
+    alert('Please select a topic on the home page first!');
+    window.location.href = 'index.html'; // Redirect back to the homepage
+  }
+});
+
+    let roundsData = [];
+
+    // Load data from JSON and render rounds based on the selected topic
+    async function loadTopic(topic) {
+        const response = await fetch('two_truths_one_lie_questions.json');
+        const data = await response.json();
+        roundsData = data[topic] || []; // Get rounds for selected topic
+        renderAllRounds(); // Render rounds on the page
+    }
+
+    // Render all rounds as separate sections
+    function renderAllRounds() {
+        const roundsContainer = document.getElementById('roundsContainer');
+        roundsContainer.innerHTML = ''; // Clear any previous content
+
+        roundsData.forEach((round, roundIndex) => {
+            // Create a round card for each round
+            const roundCard = document.createElement('div');
+            roundCard.classList.add('round-card');
+            
+
+            // Add round title
+            const roundTitle = document.createElement('h4');
+            roundTitle.textContent = `Round ${round.round}`;
+            roundCard.appendChild(roundTitle);
+
+            // Add statements as buttons
+            const statementsDiv = document.createElement('div');
+            statementsDiv.classList.add('my-3');
+
+            round.statements.forEach((statement, index) => {
+                const button = document.createElement('button');
+                button.classList.add('btn', 'btn-outline-secondary', 'btn-large');
+                button.textContent = statement.text;
+                button.onclick = () => handleStatementClick(roundIndex, index, button);
+                statementsDiv.appendChild(button);
+            });
+
+            roundCard.appendChild(statementsDiv);
+
+            // Add "All True" and "All False" options
+            const optionsDiv = document.createElement('div');
+            optionsDiv.classList.add('my-3');
+            
+            roundCard.appendChild(optionsDiv);
+
+            // Append the round card to the rounds container
+            roundsContainer.appendChild(roundCard);
+        });
+    }
+
+    // Handle individual statement click
+    function handleStatementClick(roundIndex, selectedIndex, button) {
+        const round = roundsData[roundIndex];
+        const isCorrect = !round.statements[selectedIndex].isTrue;
+
+        // Mark button as correct or incorrect
+        button.classList.add(isCorrect ? 'btn-correct' : 'btn-incorrect');
+
+        // Outline correct statements in green
+        round.statements.forEach((statement, index) => {
+            if (statement.isTrue) {
+                const correctButton = document.querySelector(`#roundsContainer .round-card:nth-child(${roundIndex + 1})`).children[1].children[index];
+                correctButton.classList.add('btn-outline-correct');
+            }
+        });
+
+        // Update round completion status
+        round.completed = isCorrect ? 'correct' : 'incorrect';
+    }
+
+    // Check "All True" or "All False" options
+    function checkAnswer(roundIndex, selectedAnswer) {
+        const round = roundsData[roundIndex];
+        let userCorrect = false;
+
+        if (selectedAnswer === 'allTrue') {
+            userCorrect = round.statements.every(s => s.isTrue);
+        } else if (selectedAnswer === 'allFalse') {
+            userCorrect = round.statements.every(s => !s.isTrue);
+        }
+
+        handleFinalAnswer(roundIndex, userCorrect);
+    }
+
+    // Handle final answer for all true/false
+    function handleFinalAnswer(roundIndex, isCorrect) {
+        const round = roundsData[roundIndex];
+        round.completed = isCorrect ? 'correct' : 'incorrect';
+
+    }
+
+</script>
+      
+  </body>
+</html>

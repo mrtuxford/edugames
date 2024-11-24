@@ -1,0 +1,133 @@
+/* Basic Styling */
+html, body {
+    height: 100%; /* Ensure the body stretches to fill the screen height */
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #e0f7fa, #ffccbc);
+    background-size: cover; /* Ensures the gradient fills the page */
+    background-repeat: no-repeat;
+    color: #333;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 20px; /* Add space at the bottom for better visibility */
+}
+
+#roundsContainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Navbar Customization */
+.navbar {
+    background-color: #4CAF50;
+}
+.navbar-brand {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+.card-title i {
+    color: #4CAF50;
+    font-size: 1.2em;
+    margin-right: 8px;
+}
+
+/* Button Customization */
+.btn-primary {
+    background-color: #4CAF50;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: #388E3C;
+}
+
+/* Heading and Text Customization */
+h1, .card-title {
+    color: #333;
+    font-weight: 600;
+}
+p {
+    color: #555;
+}
+
+.custom-btn {
+    background-color: rgb(22, 122, 67); /* Use a primary color similar to the card button */
+    color: white;
+    border: none;
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 10px; /* Space between buttons */
+    padding: 10px 20px; /* Padding to make buttons larger */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow */
+    font-weight: 600;
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+.custom-btn:hover {
+    background-color: #45c46b; /* Darker shade on hover */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* Slightly larger shadow */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.custom-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 255, 34, 0.3); /* Outline for accessibility */
+}
+
+  
+  .round-card {
+    max-width: 600px; /* Restrict width for better readability */
+    width: 100%;
+    margin: 0 auto;
+    word-wrap: break-word; /* Prevent text overflow */
+    padding: 30px;
+    /* margin: 30px; */
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Add a more prominent shadow */
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 1.2rem; /* Increase font size for better readability */
+  }
+  
+  .round-card h4 {
+    font-size: 2rem; /* Larger title font */
+    margin-bottom: 20px;
+  }
+  
+  .round-card h5 {
+    font-size: 1.5rem; /* Highlight main word */
+    color: #495057; /* Darker color for contrast */
+  }
+  
+  .round-card ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .round-card li {
+    font-size: 1.3rem; /* Make taboo words larger */
+    margin: 5px 0;
+  }
+  
+  .round-card .btn {
+    margin: 10px 5px; /* Add spacing to buttons */
+    padding: 10px 20px;
+    font-size: 1rem;
+  }

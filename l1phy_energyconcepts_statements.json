@@ -1,0 +1,63 @@
+[
+    {
+        "round": 1,
+        "statements": [
+            { "text": "The speed of light is 300,000 km/s", "isTrue": true },
+            { "text": "Sound travels faster in water than in air", "isTrue": true },
+            { "text": "An object weighs more on the Moon than on Earth", "isTrue": false }
+        ]
+    },
+    {
+        "round": 2,
+        "statements": [
+            { "text": "Electricity can flow in a closed circuit", "isTrue": true },
+            { "text": "A magnet has both a north and south pole", "isTrue": true },
+            { "text": "All metals are magnetic", "isTrue": false }
+        ]
+    }
+    ,
+    {
+        "round": 3,
+        "statements": [
+            { "text": "Electricity can flow in a closed circuit", "isTrue": true },
+            { "text": "A magnet has both a north and south pole", "isTrue": true },
+            { "text": "All metals are magnetic", "isTrue": false }
+        ]
+    }
+    ,
+    {
+        "round": 4,
+        "statements": [
+            { "text": "Electricity can flow in a closed circuit", "isTrue": true },
+            { "text": "A magnet has both a north and south pole", "isTrue": true },
+            { "text": "All metals are magnetic", "isTrue": false }
+        ]
+    }
+    ,
+    {
+        "round": 5,
+        "statements": [
+            { "text": "Electricity can flow in a closed circuit", "isTrue": true },
+            { "text": "A magnet has both a north and south pole", "isTrue": true },
+            { "text": "All metals are magnetic", "isTrue": false }
+        ]
+    }
+    ,
+    {
+        "round": 6,
+        "statements": [
+            { "text": "Electricity can flow in a closed circuit", "isTrue": true },
+            { "text": "A magnet has both a north and south pole", "isTrue": true },
+            { "text": "All metals are magnetic", "isTrue": false }
+        ]
+    }
+    ,
+    {
+        "round": 7,
+        "statements": [
+            { "text": "Electricity can flow in a closed circuit", "isTrue": true },
+            { "text": "A magnet has both a north and south pole", "isTrue": true },
+            { "text": "All metals are magnetic", "isTrue": false }
+        ]
+    }
+]
