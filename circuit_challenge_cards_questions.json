@@ -1,0 +1,561 @@
+{
+    "L1PHY_Energy_Concepts": [
+        {
+            "round": 1,
+            "difficulty": "EASY",
+            "card": "Series circuit with a battery and two resistors"
+        },
+        {
+            "round": 2,
+            "difficulty": "EASY",
+            "card": "Parallel circuit with a battery and two resistors"
+        },
+        {
+            "round": 3,
+            "difficulty": "EASY",
+            "card": "Series circuit with a battery, a switch, and a resistor"
+        },
+        {
+            "round": 4,
+            "difficulty": "MEDIUM",
+            "card": "Combined circuit with two resistors in parallel and one in series with the battery"
+        },
+        {
+            "round": 5,
+            "difficulty": "MEDIUM",
+            "card": "A series circuit with three resistors and the voltmeter connected incorrectly"
+        },
+        {
+            "round": 6,
+            "difficulty": "MEDIUM",
+            "card": "Parallel circuit with two branches, each containing two resistors in series"
+        },
+        {
+            "round": 7,
+            "difficulty": "MEDIUM",
+            "card": "Design a circuit with a total resistance of 100 Ω using any combination of available resistors"
+        },
+        {
+            "round": 8,
+            "difficulty": "MEDIUM",
+            "card": "Create a parallel circuit where the current through the battery is 2A"
+        },
+        {
+            "round": 9,
+            "difficulty": "MEDIUM",
+            "card": "Build a circuit where the voltage drop across one specific resistor is 5V. Must be three or more resistors in the circuit."
+        },
+        {
+            "round": 10,
+            "difficulty": "HARD",
+            "card": "Create a circuit with three parallel branches, where the current in each branch decreases by 0.1A (e.g., 0.3A, 0.2A, 0.1A)"
+        },
+        {
+            "round": 11,
+            "difficulty": "MEDIUM",
+            "card": "Build a combined circuit where the total current is 1A, but one branch receives 0.75A and the other 0.25A"
+        },
+        {
+            "round": 12,
+            "difficulty": "MEDIUM",
+            "card": "A parallel circuit with two resistors and a battery where the voltmeter is connected correctly but the ammeter is connected incorrectly"
+        },
+        {
+            "round": 13,
+            "difficulty": "MEDIUM",
+            "card": "Design a voltage divider circuit that outputs exactly 3.3V from a 9V battery"
+        },
+        {
+            "round": 14,
+            "difficulty": "HARD",
+            "card": "Construct a circuit where increasing one resistor's value by 20% results in a 10% decrease in total current"
+        },
+        {
+            "round": 15,
+            "difficulty": "EASY",
+            "card": "Build a circuit with four resistors where the voltage drop across each is exactly 3V"
+        },
+        {
+            "round": 16,
+            "difficulty": "EASY",
+            "card": "Parallel circuit with a battery and three resistors"
+        },
+        {
+            "round": 17,
+            "difficulty": "MEDIUM",
+            "card": "Combined circuit with a battery, a switch, and three resistors (two in parallel, one in series)"
+        },
+        {
+            "round": 18,
+            "difficulty": "MEDIUM",
+            "card": "Construct a circuit that delivers 10W of power to a specific component"
+        },
+        {
+            "round": 19,
+            "difficulty": "HARD",
+            "card": "Construct a circuit where the power dissipated in two different resistors is the same, despite them having different resistance values"
+        },
+        {
+            "round": 20,
+            "difficulty": "EASY",
+            "card": "Design a circuit where the power dissipated in the entire circuit is evenly distributed among three different resistors"
+        },
+        {
+            "round": 21,
+            "difficulty": "EASY",
+            "card": "Series circuit with two batteries and one resistor"
+        },
+        {
+            "round": 22,
+            "difficulty": "EASY",
+            "card": "Series circuit with a variable resistor (potentiometer) and a fixed resistor"
+        },
+        {
+            "round": 23,
+            "difficulty": "EASY",
+            "card": "Design a circuit where the current splits evenly between two parallel branches"
+        },
+        {
+            "round": 24,
+            "difficulty": "MEDIUM",
+            "card": "Create a circuit that maintains a constant current through one resistor regardless of changes to another variable resistor"
+        },
+        {
+            "round": 25,
+            "difficulty": "MEDIUM",
+            "card": "Create a circuit where the current through one branch is double the current through another parallel branch"
+        },
+        {
+            "round": 26,
+            "difficulty": "MEDIUM",
+            "card": "Build a circuit where the current through two parallel branches is split in a 2:1 ratio"
+        },
+        {
+            "round": 27,
+            "difficulty": "HARD",
+            "card": "Construct a combined series-parallel circuit where the equivalent resistance is exactly 10 Ω. Must be three or more resistors in the circuit."
+        },
+        {
+            "round": 28,
+            "difficulty": "MEDIUM",
+            "card": "Construct a voltage divider to get 4V output over a resistor with a 12V supply. Include a voltmeter across the 4V resistor."
+        },
+        {
+            "round": 29,
+            "difficulty": "MEDIUM",
+            "card": "Create a series circuit where the current through the battery is 2A. Must use at least three resistors."
+        },
+        {
+            "round": 30,
+            "difficulty": "MEDIUM",
+            "card": "Create a circuit with two lamps where if one lamp burns out, the other lamp's brightness increases"
+        },
+        {
+            "round": 31,
+            "difficulty": "MEDIUM",
+            "card": "Build a circuit where a 1A fuse protects a parallel combination of two lamps, each drawing 0.4A"
+        },
+        {
+            "round": 32,
+            "difficulty": "MEDIUM",
+            "card": "Create a parallel circuit where two ammeters show different readings, but a voltmeter across the entire circuit reads 12V"
+        },
+        {
+            "round": 33,
+            "difficulty": "MEDIUM",
+            "card": "Build a circuit where a voltmeter reading remains constant when a resistor is changed, but an ammeter reading in the same loop changes"
+        },
+        {
+            "round": 34,
+            "difficulty": "HARD",
+            "card": "Build a circuit that has two lamps and three states using two switches. 1) All lamps off, 2) One lamp on, 3) Both lamps on"
+        },
+        {
+            "round": 35,
+            "difficulty": "HARD",
+            "card": "Build a circuit with a battery and lamp in series and two resistors connected in series OR parallel. When you add a resistor it should increase the brightness of the lamp."
+        }
+    ],
+    "L1PHY_Investigative_Approaches": [
+
+    ],
+    "L1PHY_Mechanics_Investigation": [
+
+    ],
+    "L2PHY_Atomic_and_Nuclear": [
+
+    ],
+    "L2PHY_Investigation": [
+
+    ],
+    "L2PHY_Mechanics": [
+
+    ],
+    "L2PHY_Electricity": [
+        {
+            "round": 1,
+            "difficulty": "EASY",
+            "card": "Series circuit with a battery and two resistors"
+        },
+        {
+            "round": 2,
+            "difficulty": "EASY",
+            "card": "Parallel circuit with a battery and two resistors"
+        },
+        {
+            "round": 3,
+            "difficulty": "EASY",
+            "card": "Series circuit with a battery, a switch, and a resistor"
+        },
+        {
+            "round": 4,
+            "difficulty": "MEDIUM",
+            "card": "Combined circuit with two resistors in parallel and one in series with the battery"
+        },
+        {
+            "round": 5,
+            "difficulty": "MEDIUM",
+            "card": "A series circuit with three resistors and the voltmeter connected incorrectly"
+        },
+        {
+            "round": 6,
+            "difficulty": "MEDIUM",
+            "card": "Parallel circuit with two branches, each containing two resistors in series"
+        },
+        {
+            "round": 7,
+            "difficulty": "MEDIUM",
+            "card": "Design a circuit with a total resistance of 100 Ω using any combination of available resistors"
+        },
+        {
+            "round": 8,
+            "difficulty": "MEDIUM",
+            "card": "Create a parallel circuit where the current through the battery is 2A"
+        },
+        {
+            "round": 9,
+            "difficulty": "MEDIUM",
+            "card": "Build a circuit where the voltage drop across one specific resistor is 5V. Must be three or more resistors in the circuit."
+        },
+        {
+            "round": 10,
+            "difficulty": "HARD",
+            "card": "Create a circuit with three parallel branches, where the current in each branch decreases by 0.1A (e.g., 0.3A, 0.2A, 0.1A)"
+        },
+        {
+            "round": 11,
+            "difficulty": "MEDIUM",
+            "card": "Build a combined circuit where the total current is 1A, but one branch receives 0.75A and the other 0.25A"
+        },
+        {
+            "round": 12,
+            "difficulty": "MEDIUM",
+            "card": "A parallel circuit with two resistors and a battery where the voltmeter is connected correctly but the ammeter is connected incorrectly"
+        },
+        {
+            "round": 13,
+            "difficulty": "MEDIUM",
+            "card": "Design a voltage divider circuit that outputs exactly 3.3V from a 9V battery"
+        },
+        {
+            "round": 14,
+            "difficulty": "HARD",
+            "card": "Construct a circuit where increasing one resistor's value by 20% results in a 10% decrease in total current"
+        },
+        {
+            "round": 15,
+            "difficulty": "EASY",
+            "card": "Build a circuit with four resistors where the voltage drop across each is exactly 3V"
+        },
+        {
+            "round": 16,
+            "difficulty": "EASY",
+            "card": "Parallel circuit with a battery and three resistors"
+        },
+        {
+            "round": 17,
+            "difficulty": "MEDIUM",
+            "card": "Combined circuit with a battery, a switch, and three resistors (two in parallel, one in series)"
+        },
+        {
+            "round": 18,
+            "difficulty": "MEDIUM",
+            "card": "Construct a circuit that delivers 10W of power to a specific component"
+        },
+        {
+            "round": 19,
+            "difficulty": "HARD",
+            "card": "Construct a circuit where the power dissipated in two different resistors is the same, despite them having different resistance values"
+        },
+        {
+            "round": 20,
+            "difficulty": "EASY",
+            "card": "Design a circuit where the power dissipated in the entire circuit is evenly distributed among three different resistors"
+        },
+        {
+            "round": 21,
+            "difficulty": "EASY",
+            "card": "Series circuit with two batteries and one resistor"
+        },
+        {
+            "round": 22,
+            "difficulty": "EASY",
+            "card": "Series circuit with a variable resistor (potentiometer) and a fixed resistor"
+        },
+        {
+            "round": 23,
+            "difficulty": "EASY",
+            "card": "Design a circuit where the current splits evenly between two parallel branches"
+        },
+        {
+            "round": 24,
+            "difficulty": "MEDIUM",
+            "card": "Create a circuit that maintains a constant current through one resistor regardless of changes to another variable resistor"
+        },
+        {
+            "round": 25,
+            "difficulty": "MEDIUM",
+            "card": "Create a circuit where the current through one branch is double the current through another parallel branch"
+        },
+        {
+            "round": 26,
+            "difficulty": "MEDIUM",
+            "card": "Build a circuit where the current through two parallel branches is split in a 2:1 ratio"
+        },
+        {
+            "round": 27,
+            "difficulty": "HARD",
+            "card": "Construct a combined series-parallel circuit where the equivalent resistance is exactly 10 Ω. Must be three or more resistors in the circuit."
+        },
+        {
+            "round": 28,
+            "difficulty": "MEDIUM",
+            "card": "Construct a voltage divider to get 4V output over a resistor with a 12V supply. Include a voltmeter across the 4V resistor."
+        },
+        {
+            "round": 29,
+            "difficulty": "MEDIUM",
+            "card": "Create a series circuit where the current through the battery is 2A. Must use at least three resistors."
+        },
+        {
+            "round": 30,
+            "difficulty": "MEDIUM",
+            "card": "Create a circuit with two lamps where if one lamp burns out, the other lamp's brightness increases"
+        },
+        {
+            "round": 31,
+            "difficulty": "MEDIUM",
+            "card": "Build a circuit where a 1A fuse protects a parallel combination of two lamps, each drawing 0.4A"
+        },
+        {
+            "round": 32,
+            "difficulty": "MEDIUM",
+            "card": "Create a parallel circuit where two ammeters show different readings, but a voltmeter across the entire circuit reads 12V"
+        },
+        {
+            "round": 33,
+            "difficulty": "MEDIUM",
+            "card": "Build a circuit where a voltmeter reading remains constant when a resistor is changed, but an ammeter reading in the same loop changes"
+        },
+        {
+            "round": 34,
+            "difficulty": "HARD",
+            "card": "Build a circuit that has two lamps and three states using two switches. 1) All lamps off, 2) One lamp on, 3) Both lamps on"
+        },
+        {
+            "round": 35,
+            "difficulty": "HARD",
+            "card": "Build a circuit with a battery and lamp in series and two resistors connected in series OR parallel. When you add a resistor it should increase the brightness of the lamp."
+        }
+    ],
+    "L3PHY_Modern_Physics": [
+
+    ],
+    "L3PHY_Investigation": [
+
+    ],
+    "L3PHY_Mechanics": [
+        
+    ],
+    "L3PHY_Electricity": [
+        {
+            "round": 1,
+            "difficulty": "EASY",
+            "card": "Series circuit with a battery and two resistors"
+        },
+        {
+            "round": 2,
+            "difficulty": "EASY",
+            "card": "Parallel circuit with a battery and two resistors"
+        },
+        {
+            "round": 3,
+            "difficulty": "EASY",
+            "card": "Series circuit with a battery, a switch, and a resistor"
+        },
+        {
+            "round": 4,
+            "difficulty": "MEDIUM",
+            "card": "Combined circuit with two resistors in parallel and one in series with the battery"
+        },
+        {
+            "round": 5,
+            "difficulty": "MEDIUM",
+            "card": "A series circuit with three resistors and the voltmeter connected incorrectly"
+        },
+        {
+            "round": 6,
+            "difficulty": "MEDIUM",
+            "card": "Parallel circuit with two branches, each containing two resistors in series"
+        },
+        {
+            "round": 7,
+            "difficulty": "MEDIUM",
+            "card": "Design a circuit with a total resistance of 100 Ω using any combination of available resistors"
+        },
+        {
+            "round": 8,
+            "difficulty": "MEDIUM",
+            "card": "Create a parallel circuit where the current through the battery is 2A"
+        },
+        {
+            "round": 9,
+            "difficulty": "MEDIUM",
+            "card": "Build a circuit where the voltage drop across one specific resistor is 5V. Must be three or more resistors in the circuit."
+        },
+        {
+            "round": 10,
+            "difficulty": "HARD",
+            "card": "Create a circuit with three parallel branches, where the current in each branch decreases by 0.1A (e.g., 0.3A, 0.2A, 0.1A)"
+        },
+        {
+            "round": 11,
+            "difficulty": "MEDIUM",
+            "card": "Build a combined circuit where the total current is 1A, but one branch receives 0.75A and the other 0.25A"
+        },
+        {
+            "round": 12,
+            "difficulty": "MEDIUM",
+            "card": "A parallel circuit with two resistors and a battery where the voltmeter is connected correctly but the ammeter is connected incorrectly"
+        },
+        {
+            "round": 13,
+            "difficulty": "MEDIUM",
+            "card": "Design a voltage divider circuit that outputs exactly 3.3V from a 9V battery"
+        },
+        {
+            "round": 14,
+            "difficulty": "HARD",
+            "card": "Construct a circuit where increasing one resistor's value by 20% results in a 10% decrease in total current"
+        },
+        {
+            "round": 15,
+            "difficulty": "EASY",
+            "card": "Build a circuit with four resistors where the voltage drop across each is exactly 3V"
+        },
+        {
+            "round": 16,
+            "difficulty": "EASY",
+            "card": "Parallel circuit with a battery and three resistors"
+        },
+        {
+            "round": 17,
+            "difficulty": "MEDIUM",
+            "card": "Combined circuit with a battery, a switch, and three resistors (two in parallel, one in series)"
+        },
+        {
+            "round": 18,
+            "difficulty": "MEDIUM",
+            "card": "Construct a circuit that delivers 10W of power to a specific component"
+        },
+        {
+            "round": 19,
+            "difficulty": "HARD",
+            "card": "Construct a circuit where the power dissipated in two different resistors is the same, despite them having different resistance values"
+        },
+        {
+            "round": 20,
+            "difficulty": "EASY",
+            "card": "Design a circuit where the power dissipated in the entire circuit is evenly distributed among three different resistors"
+        },
+        {
+            "round": 21,
+            "difficulty": "EASY",
+            "card": "Series circuit with two batteries and one resistor"
+        },
+        {
+            "round": 22,
+            "difficulty": "EASY",
+            "card": "Series circuit with a variable resistor (potentiometer) and a fixed resistor"
+        },
+        {
+            "round": 23,
+            "difficulty": "EASY",
+            "card": "Design a circuit where the current splits evenly between two parallel branches"
+        },
+        {
+            "round": 24,
+            "difficulty": "MEDIUM",
+            "card": "Create a circuit that maintains a constant current through one resistor regardless of changes to another variable resistor"
+        },
+        {
+            "round": 25,
+            "difficulty": "MEDIUM",
+            "card": "Create a circuit where the current through one branch is double the current through another parallel branch"
+        },
+        {
+            "round": 26,
+            "difficulty": "MEDIUM",
+            "card": "Build a circuit where the current through two parallel branches is split in a 2:1 ratio"
+        },
+        {
+            "round": 27,
+            "difficulty": "HARD",
+            "card": "Construct a combined series-parallel circuit where the equivalent resistance is exactly 10 Ω. Must be three or more resistors in the circuit."
+        },
+        {
+            "round": 28,
+            "difficulty": "MEDIUM",
+            "card": "Construct a voltage divider to get 4V output over a resistor with a 12V supply. Include a voltmeter across the 4V resistor."
+        },
+        {
+            "round": 29,
+            "difficulty": "MEDIUM",
+            "card": "Create a series circuit where the current through the battery is 2A. Must use at least three resistors."
+        },
+        {
+            "round": 30,
+            "difficulty": "MEDIUM",
+            "card": "Create a circuit with two lamps where if one lamp burns out, the other lamp's brightness increases"
+        },
+        {
+            "round": 31,
+            "difficulty": "MEDIUM",
+            "card": "Build a circuit where a 1A fuse protects a parallel combination of two lamps, each drawing 0.4A"
+        },
+        {
+            "round": 32,
+            "difficulty": "MEDIUM",
+            "card": "Create a parallel circuit where two ammeters show different readings, but a voltmeter across the entire circuit reads 12V"
+        },
+        {
+            "round": 33,
+            "difficulty": "MEDIUM",
+            "card": "Build a circuit where a voltmeter reading remains constant when a resistor is changed, but an ammeter reading in the same loop changes"
+        },
+        {
+            "round": 34,
+            "difficulty": "HARD",
+            "card": "Build a circuit that has two lamps and three states using two switches. 1) All lamps off, 2) One lamp on, 3) Both lamps on"
+        },
+        {
+            "round": 35,
+            "difficulty": "HARD",
+            "card": "Build a circuit with a battery and lamp in series and two resistors connected in series OR parallel. When you add a resistor it should increase the brightness of the lamp."
+        }
+    ],
+    "L3PHY_Waves": [
+
+    ]
+    
+}

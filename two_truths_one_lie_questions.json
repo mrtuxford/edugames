@@ -254,8 +254,152 @@
 
     ],
     "L2PHY_Mechanics": [
-
-    ],
+      {
+        "round": 1,
+        "statements": [
+          { "text": "The vertical and horizontal components of a projectile's motion are independent of each other.", "isTrue": true },
+          { "text": "At the highest point of a projectile's trajectory, its vertical velocity is non-zero.", "isTrue": false },
+          { "text": "The vertical acceleration of a projectile is constant throughout its entire flight, assuming no air resistance.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 2,
+        "statements": [
+          { "text": "In uniform circular motion, the speed of the object remains constant.", "isTrue": true },
+          { "text": "The centripetal force in circular motion is always directed towards the centre of the circle.", "isTrue": true },
+          { "text": "The centripetal acceleration in circular motion is inversely proportional to the mass of the object.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 3,
+        "statements": [
+          { "text": "Newton's First Law states that an object will remain at rest or in uniform motion unless acted upon by an external force.", "isTrue": true },
+          { "text": "According to Newton's Second Law, the acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass.", "isTrue": true },
+          { "text": "Newton's Third Law states that for every action, there is an equal and opposite reaction, which always cancels out the original force.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 4,
+        "statements": [
+          { "text": "The work done by a force is equal to the dot product of the force vector and the displacement vector.", "isTrue": true },
+          { "text": "The kinetic energy of an object is always conserved in any type of collision.", "isTrue": false },
+          { "text": "The change in an object's gravitational potential energy depends on the change in height, not the path taken.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 5,
+        "statements": [
+          { "text": "In an isolated system, the total momentum before and after a collision is conserved.", "isTrue": true },
+          { "text": "In a perfectly elastic collision, both kinetic energy and momentum are conserved.", "isTrue": true },
+          { "text": "The impulse experienced by an object is always equal to its change in velocity.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 6,
+        "statements": [
+          { "text": "Displacement is a vector quantity that represents the shortest distance between two points.", "isTrue": true },
+          { "text": "The average velocity of an object is always equal to its instantaneous velocity.", "isTrue": false },
+          { "text": "If an object's displacement-time graph is a straight line, its velocity is constant.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 7,
+        "statements": [
+          { "text": "An object can have a constant velocity and a non-zero acceleration simultaneously.", "isTrue": false },
+          { "text": "The slope of a velocity-time graph represents acceleration.", "isTrue": true },
+          { "text": "If an object's acceleration is zero, it must be at rest or travelling at a constant speed.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 8,
+        "statements": [
+          { "text": "In the absence of air resistance, all objects fall with the same acceleration regardless of their mass.", "isTrue": true },
+          { "text": "The acceleration due to gravity decreases slightly as altitude increases.", "isTrue": true },
+          { "text": "An object thrown upward has the same speed when it returns to its starting point as it did when it was thrown.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 9,
+        "statements": [
+          { "text": "The magnitude of a vector is always greater than or equal to the magnitude of any of its components.", "isTrue": true },
+          { "text": "Two perpendicular components of a vector can be added by summing their magnitudes.", "isTrue": false },
+          { "text": "The direction of a vector can be determined using the arctangent of the ratio of its y-component to its x-component.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 10,
+        "statements": [
+          { "text": "In a proper force diagram, the lengths of the arrows should be proportional to the magnitudes of the forces.", "isTrue": true },
+          { "text": "Normal force is always equal to the weight of an object.", "isTrue": false },
+          { "text": "Friction forces between objects and surfaces are always represented as arrows parallel to the surface on which the object rests or moves.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 11,
+        "statements": [
+          { "text": "Torque is calculated as the product of force and the perpendicular distance from the axis of rotation to the line of action of the force.", "isTrue": true },
+          { "text": "An object in equilibrium must have zero net torque but may have non-zero linear acceleration.", "isTrue": false },
+          { "text": "The SI unit for torque is Newton-meter (N·m), which is dimensionally equivalent to Joule.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 12,
+        "statements": [
+          { "text": "The spring constant k in Hooke's Law is a measure of the spring's stiffness.", "isTrue": true },
+          { "text": "The potential energy stored in a spring is directly proportional to the square of its extension.", "isTrue": true },
+          { "text": "All springs obey Hooke's Law, regardless of how far they are stretched.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 13,
+        "statements": [
+          { "text": "In the absence of external forces, the total momentum of a system remains constant.", "isTrue": true },
+          { "text": "Momentum is always conserved in collisions, whether they are elastic or inelastic.", "isTrue": true },
+          { "text": "In a perfectly inelastic collision, the colliding objects stick together and move with a greater final velocity.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 14,
+        "statements": [
+          { "text": "Work done by a force is negative when the force acts in a direction opposite to the displacement.", "isTrue": true },
+          { "text": "Power is defined as the rate of doing work and is measured in watts.", "isTrue": true },
+          { "text": "The work done by a force is always equal to the change in kinetic energy of the object.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 15,
+        "statements": [
+          { "text": "In an isolated system, the total mechanical energy (kinetic + potential) remains constant.", "isTrue": true },
+          { "text": "Friction always decreases the total energy of a system.", "isTrue": false },
+          { "text": "The law of conservation of energy states that energy can never be created or destroyed, only converted from one form to another.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 16,
+        "statements": [
+          { "text": "The centripetal force in circular motion is always provided by a single force, such as tension or friction.", "isTrue": false },
+          { "text": "An object moving in a circular path at constant speed has a changing velocity vector.", "isTrue": true },
+          { "text": "The centripetal acceleration is directly proportional to the square of the velocity.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 17,
+        "statements": [
+          { "text": "The time of flight for a projectile launched at an angle is independent of its initial velocity.", "isTrue": false },
+          { "text": "For a given initial speed, the maximum range of a projectile occurs at a launch angle of 45 degrees.", "isTrue": true },
+          { "text": "The path of a projectile in the absence of air resistance is always a perfect parabola.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 18,
+        "statements": [
+          { "text": "The SI unit of force (Newton) can be expressed in base units as kg·m/s².", "isTrue": true },
+          { "text": "When adding or subtracting quantities, the final answer should have the same number of decimal places as the least precise measurement.", "isTrue": true },
+          { "text": "The precision of a measurement is always improved by using more significant figures in calculations.", "isTrue": false }
+        ]
+      }
+    ]
+    ,
     "L2PHY_Electricity": [
       {
         "round": 1,
@@ -425,9 +569,330 @@
 
     ],
     "L3PHY_Mechanics": [
-
+      {
+        "round": 1,
+        "statements": [
+          { "text": "The centre of mass can be outside an object.", "isTrue": true },
+          { "text": "Momentum is always conserved in a closed system.", "isTrue": true },
+          { "text": "Impulse is measured in newtons per second.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 2,
+        "statements": [
+          { "text": "Vectors have both magnitude and direction.", "isTrue": true },
+          { "text": "The dot product of two vectors is always a vector.", "isTrue": false },
+          { "text": "Vector addition is commutative.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 3,
+        "statements": [
+          { "text": "Centripetal acceleration points towards the centre of the circle.", "isTrue": true },
+          { "text": "The period of an orbit decreases as the radius increases.", "isTrue": false },
+          { "text": "Banked corners reduce the friction needed for turning.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 4,
+        "statements": [
+          { "text": "The gravitational force between two objects is inversely proportional to the square of the distance between them.", "isTrue": true },
+          { "text": "Objects in freefall experience weightlessness.", "isTrue": true },
+          { "text": "The gravitational field strength on Earth's surface is exactly 9.8 N/kg.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 5,
+        "statements": [
+          { "text": "Geosynchronous orbits have a period of 24 hours.", "isTrue": true },
+          { "text": "All orbits are perfectly circular.", "isTrue": false },
+          { "text": "Planets closer to the Sun orbit faster than those farther away.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 6,
+        "statements": [
+          { "text": "Torque always causes an object to rotate faster.", "isTrue": false },
+          { "text": "Angular velocity is measured in radians per second.", "isTrue": true },
+          { "text": "The moment of inertia depends on the mass distribution of an object.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 7,
+        "statements": [
+          { "text": "Torque is the rotational equivalent of force.", "isTrue": true },
+          { "text": "The SI unit of torque is Newton-meter.", "isTrue": true },
+          { "text": "Torque is a scalar quantity.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 8,
+        "statements": [
+          { "text": "Angular momentum is conserved in the absence of external torques.", "isTrue": true },
+          { "text": "L = Iω, where L is angular momentum, I is moment of inertia, and ω is angular velocity.", "isTrue": true },
+          { "text": "Angular momentum always increases as an object moves closer to its axis of rotation.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 9,
+        "statements": [
+          { "text": "In SHM, acceleration is proportional to displacement.", "isTrue": true },
+          { "text": "The period of a simple pendulum depends on its mass.", "isTrue": false },
+          { "text": "Energy in SHM constantly shifts between kinetic and potential forms.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 10,
+        "statements": [
+          { "text": "Displacement in SHM is given by x = A cos(ωt) or x = A sin(ωt).", "isTrue": true },
+          { "text": "The velocity in SHM is maximum at the equilibrium position.", "isTrue": true },
+          { "text": "The acceleration in SHM is always in the same direction as the velocity.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 11,
+        "statements": [
+          { "text": "Damping reduces the time period of the oscillations over time.", "isTrue": false },
+          { "text": "Damping reduces the amplitude of oscillations over time.", "isTrue": true },
+          { "text": "Resonance occurs when the driving frequency matches the natural frequency.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 12,
+        "statements": [
+          { "text": "Potential energy is maximum at the equilibrium position.", "isTrue": false },
+          { "text": "Kinetic energy is maximum at the equilibrium position.", "isTrue": true },
+          { "text": "The total energy in SHM remains constant in the absence of damping.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 13,
+        "statements": [
+          { "text": "A conical pendulum traces a circular path.", "isTrue": true },
+          { "text": "The tension in the string is a constant size throughout the motion.", "isTrue": true },
+          { "text": "The period is independent of the angle the string makes with the vertical.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 14,
+        "statements": [
+          { "text": "The normal force at the top of a vertical loop can be zero.", "isTrue": true },
+          { "text": "If an objects weight is greater than normal force at the top it will begin to fall.", "isTrue": false },
+          { "text": "The minimum speed at the top of the loop is independent of the mass.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 15,
+        "statements": [
+          { "text": "Angular displacement is measured in radians.", "isTrue": true },
+          { "text": "Average angular velocity is given by Δθ/Δt.", "isTrue": true },
+          { "text": "Angular acceleration is always constant in rotational motion.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 16,
+        "statements": [
+          { "text": "Rotational kinetic energy is given by 1/2 Iω².", "isTrue": true },
+          { "text": "An object's rotational energy depends on its angular velocity and moment of inertia.", "isTrue": true },
+          { "text": "Rotational energy is always less than translational kinetic energy for the same object.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 17,
+        "statements": [
+          { "text": "Conservation of momentum only applies to elastic collisions.", "isTrue": false },
+          { "text": "Impulse equals the change in momentum.", "isTrue": true },
+          { "text": "In a collision, momentum is always conserved but kinetic energy may not be.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 18,
+        "statements": [
+          { "text": "The centre of mass of a uniform disk is at its geometric centre.", "isTrue": true },
+          { "text": "The motion of a system can be described by the motion of its centre of mass.", "isTrue": true },
+          { "text": "The centre of mass is always located within the physical boundaries of an object.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 19,
+        "statements": [
+          { "text": "Banked corners eliminate the need for friction entirely.", "isTrue": false },
+          { "text": "Banked corners allow vehicles to turn at higher speeds.", "isTrue": true },
+          { "text": "The ideal banking angle depends on the speed of the vehicle.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 20,
+        "statements": [
+          { "text": "Increasing the amplitude of SHM always increases its frequency.", "isTrue": false },
+          { "text": "Period and frequency are inversely related.", "isTrue": true },
+          { "text": "The SI unit of frequency is Hertz (Hz).", "isTrue": true }
+        ]
+      }
+      
     ],
     "L3PHY_Electricity": [
+      {
+        "round": 1,
+        "statements": [
+          { "text": "Ohm's Law states that V = IR.", "isTrue": true },
+          { "text": "Resistance is sum of individual resistance in a series circuit.", "isTrue": true },
+          { "text": "Current is always the same in parallel branches.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 2,
+        "statements": [
+          { "text": "In a series circuit, adding more resistors decreases the total resistance.", "isTrue": false },
+          { "text": "Voltage is divided among components in a series circuit.", "isTrue": true },
+          { "text": "The total resistance in a parallel circuit is less than the smallest individual resistance.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 3,
+        "statements": [
+          { "text": "Current remains constant throughout a series circuit.", "isTrue": true },
+          { "text": "Voltage remains constant across each branch of a parallel circuit.", "isTrue": true },
+          { "text": "Increasing the voltage supplied in a circuit always decreases the current.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 4,
+        "statements": [
+          { "text": "In a parallel circuit, the total current is the sum of the currents through each branch.", "isTrue": true },
+          { "text": "Voltage across resistors in a parallel circuit is the same.", "isTrue": true },
+          { "text": "Combining a resistor in series and parallel with a power source results in the same total resistance.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 5,
+        "statements": [
+          { "text": "EMF is always less than terminal voltage.", "isTrue": false },
+          { "text": "Terminal voltage equals EMF when no current flows.", "isTrue": true },
+          { "text": "Internal resistance causes the terminal voltage to drop under load.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 6,
+        "statements": [
+          { "text": "Internal resistance is a property of the battery itself.", "isTrue": true },
+          { "text": "As current through the battery increases, terminal voltage decreases.", "isTrue": true },
+          { "text": "Terminal voltage increases with an increase in load.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 7,
+        "statements": [
+          { "text": "Kirchhoff's Current Law states that the total current entering a junction equals the total current leaving.", "isTrue": true },
+          { "text": "Kirchhoff's Voltage Law states that the sum of the potential differences in a closed loop is zero.", "isTrue": true },
+          { "text": "KVL applies only to parallel circuits.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 8,
+        "statements": [
+          { "text": "Capacitors store energy in the electric field.", "isTrue": true },
+          { "text": "Inductors store energy in the magnetic field.", "isTrue": true },
+          { "text": "Capacitors oppose changes in current.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 9,
+        "statements": [
+          { "text": "Inductors oppose changes in current.", "isTrue": true },
+          { "text": "Capacitors store charge even when the circuit is off.", "isTrue": true },
+          { "text": "Charging a capacitor means decreasing its voltage.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 10,
+        "statements": [
+          { "text": "A fully charged capacitor has no current flowing through it.", "isTrue": true },
+          { "text": "The time constant of a capacitor circuit is RC.", "isTrue": true },
+          { "text": "When a capacitor discharges, the voltage across it increases.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 11,
+        "statements": [
+          { "text": "Faraday's Law states that a changing magnetic flux induces an EMF.", "isTrue": true },
+          { "text": "Lenz's Law determines the direction of the induced EMF to oppose the change in flux.", "isTrue": true },
+          { "text": "Back EMF can never be greater than the EMF of a circuit.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 12,
+        "statements": [
+          { "text": "Inductance is the property of a circuit that opposes changes in voltage.", "isTrue": false },
+          { "text": "When current flows through an inductor, it creates a magnetic field.", "isTrue": true },
+          { "text": "The rate at which the magnetic field changes determines the induced EMF.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 13,
+        "statements": [
+          { "text": "An inductor charges like a capacitor when a current is applied. It accumulates charge.", "isTrue": false },
+          { "text": "When an inductor is fully charged, it does not resist the flow of current.", "isTrue": true },
+          { "text": "The time constant of an inductor circuit is L/R.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 14,
+        "statements": [
+          { "text": "A step-up transformer increases voltage and decreases current.", "isTrue": true },
+          { "text": "Transformers work on direct current.", "isTrue": false },
+          { "text": "The number of turns on the coils determines the voltage transformation ratio.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 15,
+        "statements": [
+          { "text": "AC circuits alternate between positive and negative voltages.", "isTrue": true },
+          { "text": "The RMS value of AC is less than the peak value.", "isTrue": true },
+          { "text": "The RMS value corresponds to half of the peak value.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 16,
+        "statements": [
+          { "text": "RMS value of an AC signal is higher than the peak value.", "isTrue": false },
+          { "text": "RMS stands for Root Mean Square.", "isTrue": true },
+          { "text": "The peak voltage is the maximum voltage in an AC cycle.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 17,
+        "statements": [
+          { "text": "Power in an AC circuit is calculated using P = V_peak I_peak.", "isTrue": false },
+          { "text": "The maximum power is achieved when impedance is smallest.", "isTrue": true },
+          { "text": "In a purely resistive circuit, AC power is only positive.", "isTrue": true }
+        ]
+      },
+      {
+        "round": 18,
+        "statements": [
+          { "text": "Reactance is the opposition to AC due to inductors or capacitors.", "isTrue": true },
+          { "text": "Impedance combines resistance and reactance in an AC circuit through phasors.", "isTrue": true },
+          { "text": "Impedance only occurs in DC circuits.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 19,
+        "statements": [
+          { "text": "Phasor diagrams represent the relationship between voltage and current in AC circuits.", "isTrue": true },
+          { "text": "If voltage leads current it means the circuit is more inductive.", "isTrue": true },
+          { "text": "If voltage lags current it means the circuit is purely capacitive.", "isTrue": false }
+        ]
+      },
+      {
+        "round": 20,
+        "statements": [
+          { "text": "Resonance occurs when inductive and capacitive reactance are equal.", "isTrue": true },
+          { "text": "At resonance, the impedance of the circuit is minimum.", "isTrue": true },
+          { "text": "At resonance, power is minimum.", "isTrue": false }
+        ]
+      }
+
 
     ],
     "L3PHY_Waves": [

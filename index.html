@@ -23,21 +23,50 @@
 
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
-      <a class="navbar-brand" href="#">LearnBro</a>
-    </nav>
+<nav class="navbar navbar-expand-lg">
+  <!-- Website Name -->
+  <a class="navbar-brand ms-4" href="#">Quarkade</a>
+
+  <!-- Spacer to create the layout -->
+  <div class="d-flex justify-content-center w-100">
+    <!-- Centered Text -->
+    <p class="m-0 text-center">Found a mistake? Want to contribute content? Have a new game idea? Contact mrtuxford(@gmail.com)</p>
+  </div>
+</nav>
+
 
     <!-- Main Content -->
     <div class="container my-5">
-      <div class="text-center mb-4">
-        <h1>Welcome to LearnBro!!</h1>
+      <div class="text-center mb-5 mt-5">
+        <h1>Welcome to Quarkade</h1>
         <p>
           Engage with fun and interactive games to reinforce physics concepts.
+          <br />
+          Best played in groups of two to four. 
+          <br />
+          Choose your topic and then your game to get started.
         </p>
       </div>
 
+      <!-- <div class="d-flex justify-content-around align-items-center my-4">
+        <div class="text-center">
+          <div class="step-icon bg-secondary text-white rounded-circle d-flex justify-content-center align-items-center mx-auto" style="width: 60px; height: 60px; font-size: 24px;">1</div>
+          <p class="mt-2">Choose your topic</p>
+        </div>
+        <div class="text-center">
+          <div class="step-icon bg-secondary text-white rounded-circle d-flex justify-content-center align-items-center mx-auto" style="width: 60px; height: 60px; font-size: 24px;">2</div>
+          <p class="mt-2">Choose your game</p>
+        </div>
+        <div class="text-center">
+          <div class="step-icon bg-secondary text-white rounded-circle d-flex justify-content-center align-items-center mx-auto" style="width: 60px; height: 60px; font-size: 24px;">3</div>
+          <p class="mt-2">Play and learn</p>
+        </div>
+      </div> -->
+      
+      <hr class="my-4 border-2 border-dark">
+
       <!-- Standard Selection -->
-      <div class="container my-4">
+      <div class="container my-5">
         <div class="row text-center">
           <!-- Level 1 Buttons -->
           <div class="col-md-4">
@@ -54,20 +83,22 @@
               >
                 Energy Concepts
               </button>
-              <button
+              <!-- <button
                 type="button"
                 class="btn custom-btn"
                 onclick="loadTopic('L1PHY_Investigative_Approaches')"
+                disabled
               >
-                Investigative Approaches
+                Investigative Approaches (Coming Soon)
               </button>
               <button
                 type="button"
                 class="btn custom-btn"
                 onclick="loadTopic('L1PHY_Mechanics_Investigation')"
+                disabled
               >
-                Mechanics Investigation
-              </button>
+                Mechanics Investigation (Coming Soon)
+              </button> -->
             </div>
           </div>
 
@@ -82,20 +113,6 @@
               <button
                 type="button"
                 class="btn custom-btn"
-                onclick="loadTopic('L2PHY_Atomic_and_Nuclear')"
-              >
-                Atomic and Nuclear
-              </button>
-              <button
-                type="button"
-                class="btn custom-btn"
-                onclick="loadTopic('L2PHY_Investigation')"
-              >
-                Investigation
-              </button>
-              <button
-                type="button"
-                class="btn custom-btn"
                 onclick="loadTopic('L2PHY_Mechanics')"
               >
                 Mechanics
@@ -107,6 +124,22 @@
               >
                 Electricity
               </button>
+              <!-- <button
+                type="button"
+                class="btn custom-btn"
+                onclick="loadTopic('L2PHY_Atomic_and_Nuclear')"
+                disabled
+              >
+                Atomic and Nuclear (Coming Soon)
+              </button>
+              <button
+                type="button"
+                class="btn custom-btn"
+                onclick="loadTopic('L2PHY_Investigation')"
+                disabled
+              >
+                Investigation (Coming Soon)
+              </button> -->
             </div>
           </div>
 
@@ -121,20 +154,6 @@
               <button
                 type="button"
                 class="btn custom-btn"
-                onclick="loadTopic('L3PHY_Modern_Physics')"
-              >
-                Modern Physics
-              </button>
-              <button
-                type="button"
-                class="btn custom-btn"
-                onclick="loadTopic('L3PHY_Investigation')"
-              >
-                Investigation
-              </button>
-              <button
-                type="button"
-                class="btn custom-btn"
                 onclick="loadTopic('L3PHY_Mechanics')"
               >
                 Mechanics
@@ -145,18 +164,38 @@
                 onclick="loadTopic('L3PHY_Electricity')"
               >
                 Electricity
+              <!-- </button>
+              <button
+                type="button"
+                class="btn custom-btn"
+                onclick="loadTopic('L3PHY_Modern_Physics')"
+                disabled
+              >
+                Modern Physics (Coming Soon)
               </button>
               <button
+                type="button"
+                class="btn custom-btn"
+                onclick="loadTopic('L3PHY_Investigation')"
+                disabled
+              >
+                Investigation (Coming Soon)
+              </button> -->
+
+              <!-- <button
                 type="button"
                 class="btn custom-btn"
                 onclick="loadTopic('L3PHY_Waves')"
               >
                 Waves
-              </button>
+              </button> -->
             </div>
           </div>
         </div>
       </div>
+
+      <hr class="my-4 border-2 border-dark">
+
 
       <!-- Game Cards -->
       <div class="row">
@@ -208,24 +247,23 @@
               <p class="card-text">
                 Draw circuit diagrams to fulfill the challenge cards!
               </p>
-              <a href="#" class="btn btn-primary">Coming Soon</a>
+              <a href="circuit_challenge_cards.html" class="btn btn-primary">Play Now</a>
             </div>
           </div>
         </div>
-        <div class="col-md-3 mt-5">
+        <!-- <div class="col-md-3 mt-5">
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">
                 <i class="fas fa-question"></i> Flash Cards
               </h5>
               <p class="card-text">Quiz each other on key concepts!</p>
-              <a href="#" class="btn btn-primary">Coming Soon</a>
+              <a href="#" class="btn btn-secondary">Coming Soon</a>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
-
   </body>
 
   <script>

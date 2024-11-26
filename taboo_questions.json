@@ -1,32 +1,270 @@
 {
     "L1PHY_Energy_Concepts": [
-        {
-            "round": 1,
-            "word": "Voltage",
-            "taboo_words": [
-                "Energy",
-                "Push",
-                "Battery"
-            ]
+{
+        "round": 1,
+        "word": "KINETIC ENERGY",
+        "taboo_words": [
+            "Moving",
+            "Motion",
+            "1/2mv²",
+            "Speed",
+            "Velocity"
+        ]
         },
         {
-            "round": 2,
-            "word": "Current",
-            "taboo_words": [
-                "Energy",
-                "Push",
-                "Battery"
-            ]
+        "round": 2,
+        "word": "GRAVITATIONAL POTENTIAL ENERGY",
+        "taboo_words": [
+            "Height",
+            "Mass",
+            "mgh",
+            "Falling",
+            "Gravity"
+        ]
         },
         {
-            "round": 3,
-            "word": "Parallel",
-            "taboo_words": [
-                "Energy",
-                "Push",
-                "Battery"
-            ]
+        "round": 3,
+        "word": "OHM'S LAW",
+        "taboo_words": [
+            "Voltage",
+            "Current",
+            "Resistance",
+            "V=IR",
+            "Circuit"
+        ]
+        },
+        {
+        "round": 4,
+        "word": "EFFICIENCY",
+        "taboo_words": [
+            "Useful",
+            "Wasted",
+            "Percentage",
+            "Input",
+            "Output"
+        ]
+        },
+        {
+        "round": 5,
+        "word": "CONVECTION",
+        "taboo_words": [
+            "Heat",
+            "Transfer",
+            "Fluid",
+            "Rising",
+            "Particles"
+        ]
+        },
+        {
+        "round": 6,
+        "word": "SERIES CIRCUIT",
+        "taboo_words": [
+            "One path",
+            "Current",
+            "Add",
+            "Resistors",
+            "Loop"
+        ]
+        },
+        {
+        "round": 7,
+        "word": "PARALLEL CIRCUIT",
+        "taboo_words": [
+            "Branch",
+            "Split",
+            "Current",
+            "Voltage",
+            "Multiple paths"
+        ]
+        },
+        {
+        "round": 8,
+        "word": "SPECIFIC HEAT CAPACITY",
+        "taboo_words": [
+            "Temperature",
+            "mcΔT",
+            "Change",
+            "Energy",
+            "Degrees"
+        ]
+        },
+        {
+        "round": 9,
+        "word": "LATENT HEAT",
+        "taboo_words": [
+            "Phase change",
+            "Melting",
+            "Boiling",
+            "State",
+            "mL"
+        ]
+        },
+        {
+        "round": 10,
+        "word": "CONSERVATION OF ENERGY",
+        "taboo_words": [
+            "Transfer",
+            "Lost",
+            "Created",
+            "System",
+            "Total"
+        ]
+        },
+        {
+        "round": 11,
+        "word": "RESISTANCE",
+        "taboo_words": [
+            "Ohms",
+            "Current",
+            "Voltage",
+            "Wire",
+            "Flow"
+        ]
+        },
+        {
+        "round": 12,
+        "word": "WORK DONE",
+        "taboo_words": [
+            "Force",
+            "Distance",
+            "Energy",
+            "Transfer",
+            "Fd"
+        ]
+        },
+        {
+        "round": 13,
+        "word": "POWER",
+        "taboo_words": [
+            "Energy",
+            "Time",
+            "Watts",
+            "Rate",
+            "Work"
+        ]
+        },
+        {
+        "round": 14,
+        "word": "CONDUCTOR",
+        "taboo_words": [
+            "Metal",
+            "Electricity",
+            "Flow",
+            "Copper",
+            "Wire"
+        ]
+        },
+        {
+        "round": 15,
+        "word": "RADIATION",
+        "taboo_words": [
+            "Heat",
+            "Light",
+            "Waves",
+            "Sun",
+            "Transfer"
+        ]
+        },
+        {
+        "round": 16,
+        "word": "CONDUCTION",
+        "taboo_words": [
+            "Touch",
+            "Metal",
+            "Heat",
+            "Transfer",
+            "Particles"
+        ]
+        },
+        {
+        "round": 17,
+        "word": "VOLTAGE",
+        "taboo_words": [
+            "Potential",
+            "Difference",
+            "Battery",
+            "Volts",
+            "Current"
+        ]
+        },
+        {
+        "round": 18,
+        "word": "FRICTION",
+        "taboo_words": [
+            "Force",
+            "Rub",
+            "Surface",
+            "Heat",
+            "Rough"
+        ]
+        },
+        {
+        "round": 19,
+        "word": "HEATING CURVE",
+        "taboo_words": [
+            "Graph",
+            "Temperature",
+            "Time",
+            "Phase",
+            "Change"
+        ]
+        },
+        {
+        "round": 20,
+        "word": "NEWTON",
+        "taboo_words": [
+            "Force",
+            "Push",
+            "Pull",
+            "Weight",
+            "Mass"
+        ]
+        },
+        {
+        "round": 21,
+        "word": "JOULE",
+        "taboo_words": [
+            "Energy",
+            "Work",
+            "Unit",
+            "Power",
+            "Newton"
+        ]
+        },
+        {
+        "round": 22,
+        "word": "INSULATOR",
+        "taboo_words": [
+            "Plastic",
+            "Rubber",
+            "Block",
+            "Electricity",
+            "Flow"
+        ]
+        },
+        {
+        "round": 23,
+        "word": "PARTICLE MOTION",
+        "taboo_words": [
+            "Vibrate",
+            "Move",
+            "Temperature",
+            "Energy",
+            "Heat"
+        ]
+        },
+        {
+        "round": 24,
+        "word": "ELECTRICAL POWER",
+        "taboo_words": [
+            "Watts",
+            "Current",
+            "Voltage",
+            "IV",
+            "Energy"
+        ]
         }
+        
     ],
     "L1PHY_Investigative_Approaches": [
 
@@ -41,10 +279,394 @@
 
     ],
     "L2PHY_Mechanics": [
-
+        {
+            "round": 1,
+            "word": "Scalar",
+            "taboo_words": [
+                "magnitude",
+                "speed", 
+                "distance", 
+                "time", 
+                "no direction"
+            ]
+        },
+        {
+            "round": 2,
+            "word": "Vector",
+            "taboo_words": [
+                "direction", 
+                "velocity", 
+                "displacement", 
+                "acceleration", 
+                "quantity"
+            ]
+        },
+        {
+            "round": 3,
+            "word": "Displacement",
+            "taboo_words": [
+                "change", 
+                "position", 
+                "vector", 
+                "distance", 
+                "meters"
+            ]
+        },
+        {
+            "round": 4,
+            "word": "Velocity",
+            "taboo_words": [
+                "speed", 
+                "rate", 
+                "displacement", 
+                "vector", 
+                "per second"
+            ]
+        },
+        {
+            "round": 5,
+            "word": "Acceleration",
+            "taboo_words": [
+                "rate", 
+                "change", 
+                "velocity", 
+                "gravity", 
+                "m/s²"
+            ]
+        },
+        {
+            "round": 6,
+            "word": "Free Fall",
+            "taboo_words": [
+                "gravity", 
+                "drop", 
+                "downward", 
+                "acceleration", 
+                "alone"
+            ]
+        },
+        {
+            "round": 7,
+            "word": "Trajectory",
+            "taboo_words": [
+                "path", 
+                "curve", 
+                "projectile", 
+                "motion", 
+                "follow"
+            ]
+        },
+        {
+            "round": 8,
+            "word": "Component Motion",
+            "taboo_words": [
+                "horizontal", 
+                "vertical", 
+                "direction", 
+                "split", 
+                "constant"
+            ]
+        },
+        {
+            "round": 9,
+            "word": "Weight",
+            "taboo_words": [
+                "gravity", 
+                "mass", 
+                "W=mg", 
+                "force", 
+                "downward"
+            ]
+        },
+        {
+            "round": 10,
+            "word": "Normal Force",
+            "taboo_words": [
+                "surface", 
+                "perpendicular", 
+                "support", 
+                "weight", 
+                "push"
+            ]
+        },
+        {
+            "round": 11,
+            "word": "Friction",
+            "taboo_words": [
+                "oppose", 
+                "motion", 
+                "surfaces", 
+                "resist", 
+                "contact"
+            ]
+        },
+        {
+            "round": 12,
+            "word": "Tension",
+            "taboo_words": [
+                "string", 
+                "rope", 
+                "pull", 
+                "force", 
+                "transmit"
+            ]
+        },
+        {
+            "round": 13,
+            "word": "Thrust",
+            "taboo_words": [
+                "forward", 
+                "propel", 
+                "engine", 
+                "force", 
+                "push"
+            ]
+        },
+        {
+            "round": 14,
+            "word": "Spring Force",
+            "taboo_words": [
+                "Hooke's Law", 
+                "kx", 
+                "spring", 
+                "restoring", 
+                "compression"
+            ]
+        },
+        {
+            "round": 15,
+            "word": "Newton's First Law",
+            "taboo_words": [
+                "motion", 
+                "rest", 
+                "unbalanced", 
+                "inertia", 
+                "force"
+            ]
+        },
+        {
+            "round": 16,
+            "word": "Newton's Second Law",
+            "taboo_words": [
+                "F=ma", 
+                "acceleration", 
+                "mass", 
+                "force", 
+                "proportional"
+            ]
+        },
+        {
+            "round": 17,
+            "word": "Newton's Third Law",
+            "taboo_words": [
+                "action", 
+                "reaction", 
+                "equal", 
+                "opposite", 
+                "pairs"
+            ]
+        },
+        {
+            "round": 18,
+            "word": "Torque",
+            "taboo_words": [
+                "rotation", 
+                "force", 
+                "perpendicular", 
+                "lever", 
+                "Fd"
+            ]
+        },
+        {
+            "round": 19,
+            "word": "Momentum",
+            "taboo_words": [
+                "mv", 
+                "mass", 
+                "velocity", 
+                "collision", 
+                "impulse"
+            ]
+        },
+        {
+            "round": 20,
+            "word": "Conservation of Energy",
+            "taboo_words": [
+                "transform", 
+                "constant", 
+                "total", 
+                "system", 
+                "KE/GPE"
+            ]
+        }
     ],
     "L2PHY_Electricity": [
-
+        {
+            "round": 1,
+            "word": "Uniform Electric Field",
+            "taboo_words": [
+                "constant",
+                "space", 
+                "magnitude", 
+                "direction", 
+                "field lines"
+            ]
+        },
+        {
+            "round": 2,
+            "word": "Electric Field Strength",
+            "taboo_words": [
+                "force", 
+                "unit charge", 
+                "E=F/q",
+                "E=V/d",
+                "intensity" 
+            ]
+        },
+        {
+            "round": 3,
+            "word": "Charge",
+            "taboo_words": [
+                "particle", 
+                "positive", 
+                "negative", 
+                "fundamental", 
+                "interaction",
+                "neutral"
+            ]
+        },
+        {
+            "round": 4,
+            "word": "Electric Potential Energy",
+            "taboo_words": [
+                "stored", 
+                "work", 
+                "field", 
+                "position", 
+                "charged particles"
+            ]
+        },
+        {
+            "round": 5,
+            "word": "Work",
+            "taboo_words": [
+                "energy", 
+                "transfer", 
+                "potential difference", 
+                "force", 
+                "done"
+            ]
+        },
+        {
+            "round": 6,
+            "word": "Voltage",
+            "taboo_words": [
+                "potential", 
+                "energy", 
+                "unit charge", 
+                "V", 
+                "electrical"
+            ]
+        },
+        {
+            "round": 7,
+            "word": "Current",
+            "taboo_words": [
+                "flow", 
+                "electrons", 
+                "rate", 
+                "charge", 
+                "circuit"
+            ]
+        },
+        {
+            "round": 8,
+            "word": "Resistance",
+            "taboo_words": [
+                "oppose", 
+                "current", 
+                "ohms", 
+                "resistor", 
+                "material"
+            ]
+        },
+        {
+            "round": 9,
+            "word": "Power",
+            "taboo_words": [
+                "energy", 
+                "rate", 
+                "transfer", 
+                "work", 
+                "system"
+            ]
+        },
+        {
+            "round": 10,
+            "word": "Ohm's Law",
+            "taboo_words": [
+                "V=IR", 
+                "voltage", 
+                "current", 
+                "resistance", 
+                "circuit"
+            ]
+        },
+        {
+            "round": 11,
+            "word": "Lorentz Force",
+            "taboo_words": [
+                "magnetic", 
+                "charged particle", 
+                "motion", 
+                "B", 
+                "force"
+            ]
+        },
+        {
+            "round": 12,
+            "word": "Conductor",
+            "taboo_words": [
+                "free electrons", 
+                "flow", 
+                "current", 
+                "material", 
+                "charge"
+            ]
+        },
+        {
+            "round": 13,
+            "word": "Magnetic Field",
+            "taboo_words": [
+                "region", 
+                "magnetic", 
+                "force", 
+                "field lines", 
+                "poles"
+            ]
+        },
+        {
+            "round": 14,
+            "word": "Induced Voltage",
+            "taboo_words": [
+                "magnetic field", 
+                "change", 
+                "circuit", 
+                "generator", 
+                "EMF"
+            ]
+        },
+        {
+            "round": 15,
+            "word": "Resistor",
+            "taboo_words": [
+                "oppose", 
+                "current", 
+                "heat", 
+                "resistance", 
+                "circuit"
+            ]
+        }
     ],
     "L3PHY_Modern_Physics": [
 
@@ -53,10 +675,340 @@
 
     ],
     "L3PHY_Mechanics": [
-
+        {
+            "round": 1,
+            "word": "Vector",
+            "taboo_words": [
+                "Magnitude",
+                "Direction", 
+                "Arrow",
+                "Force"
+            ]
+        },
+        {
+            "round": 2,
+            "word": "Momentum",
+            "taboo_words": [
+                "Mass",
+                "Velocity",
+                "Collision", 
+                "Conservation"
+            ]
+        },
+        {
+            "round": 3,
+            "word": "Center of Mass",
+            "taboo_words": [
+                "Balance",
+                "Middle",
+                "Average",
+                "Position"
+            ]
+        },
+        {
+            "round": 4,
+            "word": "Gravity",
+            "taboo_words": [
+                "Force",
+                "Earth",
+                "Attraction",
+                "Weight"
+            ]
+        },
+        {
+            "round": 5,
+            "word": "Orbit",
+            "taboo_words": [
+                "Planet",
+                "Satellite",
+                "Ellipse",
+                "Revolution"
+            ]
+        },
+        {
+            "round": 6,
+            "word": "Torque",
+            "taboo_words": [
+                "Rotation",
+                "Force",
+                "Lever",
+                "Twist"
+            ]
+        },
+        {
+            "round": 7,
+            "word": "Angular Momentum",
+            "taboo_words": [
+                "Rotation",
+                "Conservation",
+                "Spin",
+                "Inertia"
+            ]
+        },
+        {
+            "round": 8,
+            "word": "Simple Harmonic Motion",
+            "taboo_words": [
+                "Oscillation",
+                "Spring",
+                "Pendulum",
+                "Frequency"
+            ]
+        },
+        {
+            "round": 9,
+            "word": "Resonance",
+            "taboo_words": [
+                "Frequency",
+                "Amplitude",
+                "Vibration",
+                "Natural"
+            ]
+        },
+        {
+            "round": 10,
+            "word": "Damping",
+            "taboo_words": [
+                "Friction",
+                "Decrease",
+                "Amplitude",
+                "Oscillation"
+            ]
+        },
+        {
+            "round": 11,
+            "word": "Centripetal Force",
+            "taboo_words": [
+                "Circular",
+                "Centre",
+                "Acceleration",
+                "Radius"
+            ]
+        },
+        {
+            "round": 12,
+            "word": "Impulse",
+            "taboo_words": [
+                "Force",
+                "Time",
+                "Momentum",
+                "Change"
+            ]
+        },
+        {
+            "round": 13,
+            "word": "Moment of Inertia",
+            "taboo_words": [
+                "Rotation",
+                "Mass",
+                "Axis",
+                "Distribution"
+            ]
+        },
+        {
+            "round": 14,
+            "word": "Banked Corner",
+            "taboo_words": [
+                "Turn",
+                "Angle",
+                "Friction",
+                "Car"
+            ]
+        },
+        {
+            "round": 15,
+            "word": "Conical Pendulum",
+            "taboo_words": [
+                "Circular",
+                "String",
+                "Cone",
+                "Motion"
+            ]
+        },
+        {
+            "round": 16,
+            "word": "Vertical Loop",
+            "taboo_words": [
+                "Roller Coaster",
+                "Centripetal",
+                "Circle",
+                "Upside-down"
+            ]
+        },
+        {
+            "round": 17,
+            "word": "Period",
+            "taboo_words": [
+                "Time",
+                "Frequency",
+                "Oscillation",
+                "Cycle"
+            ]
+        },
+        {
+            "round": 18,
+            "word": "Angular Velocity",
+            "taboo_words": [
+                "Rotation",
+                "Speed",
+                "Radian",
+                "Second"
+            ]
+        },
+        {
+            "round": 19,
+            "word": "Kinetic Energy",
+            "taboo_words": [
+                "Motion",
+                "Velocity",
+                "Mass",
+                "Work"
+            ]
+        },
+        {
+            "round": 20,
+            "word": "Acceleration",
+            "taboo_words": [
+                "Velocity",
+                "Change",
+                "Time",
+                "Speed"
+            ]
+        }
     ],
     "L3PHY_Electricity": [
-
+        {
+            "round": 1,
+            "word": "Ohm's Law",
+            "taboo_words": [
+                "Voltage",
+                "Current",
+                "Resistance", 
+                "V=IR",
+                "Circuit"
+            ]
+        },
+        {
+            "round": 2,
+            "word": "Impedance",
+            "taboo_words": [
+                "AC",
+                "Resistance",
+                "Reactance",
+                "Ohms",
+                "Complex"
+            ]
+        },
+        {
+            "round": 3,
+            "word": "Capacitor",
+            "taboo_words": [
+                "Store",
+                "Charge",
+                "Plates",
+                "Dielectric",
+                "Farads"
+            ]
+        },
+        {
+            "round": 4,
+            "word": "Phasor",
+            "taboo_words": [
+                "Vector",
+                "Angle",
+                "Magnitude",
+                "Phase",
+                "Diagram"
+            ]
+        },
+        {
+            "round": 5,
+            "word": "Transformer",
+            "taboo_words": [
+                "Primary",
+                "Secondary",
+                "Coils",
+                "Magnetic",
+                "Step-up/down"
+            ]
+        },
+        {
+            "round": 6,
+            "word": "RMS",
+            "taboo_words": [
+                "Root",
+                "Mean", 
+                "Square",
+                "Average",
+                "Effective"
+            ]
+        },
+        {
+            "round": 7,
+            "word": "Resonance",
+            "taboo_words": [
+                "Frequency",
+                "Natural",
+                "Oscillation",
+                "Peak",
+                "Matching"
+            ]
+        },
+        {
+            "round": 8,
+            "word": "Internal Resistance",
+            "taboo_words": [
+                "Battery",
+                "Source",
+                "Real",
+                "Voltage drop",
+                "Terminal"
+            ]
+        },
+        {
+            "round": 9,
+            "word": "Kirchhoff's Law",
+            "taboo_words": [
+                "Current",
+                "Voltage",
+                "Node",
+                "Loop",
+                "Sum"
+            ]
+        },
+        {
+            "round": 10,
+            "word": "Faraday's Law",
+            "taboo_words": [
+                "Induced",
+                "EMF",
+                "Magnetic",
+                "Flux",
+                "Change"
+            ]
+        },
+        {
+            "round": 11,
+            "word": "Inductance",
+            "taboo_words": [
+                "Coil",
+                "Magnetic",
+                "Henry",
+                "Current",
+                "Opposition"
+            ]
+        },
+        {
+            "round": 12,
+            "word": "Reactance",
+            "taboo_words": [
+                "Capacitive",
+                "Inductive", 
+                "AC",
+                "Opposition",
+                "Impedance"
+            ]
+        }
     ],
     "L3PHY_Waves": [
 

@@ -15,7 +15,7 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding-bottom: 20px; /* Add space at the bottom for better visibility */
+    /* padding-bottom: 20px; Add space at the bottom for better visibility */
 }
 
 #roundsContainer {

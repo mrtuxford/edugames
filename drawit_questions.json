@@ -2,16 +2,108 @@
     "L1PHY_Energy_Concepts": [
         {
             "round": 1,
-            "word": "Voltage"
+            "word": "Energy"
         },
         {
             "round": 2,
-            "word": "Current"
+            "word": "Law of Conservation of Energy"
         },
         {
             "round": 3,
-            "word": "Parallel"
-        }
+            "word": "System"
+        },
+        {
+            "round": 4,
+            "word": "Kinetic Energy"
+        },
+        {
+            "round": 5,
+            "word": "Gravitational Potential Energy"
+        },
+        {
+            "round": 6,
+            "word": "Elastic Potential Energy"
+        },
+        {
+            "round": 7,
+            "word": "Thermal Energy"
+        },
+        {
+            "round": 8,
+            "word": "Chemical Energy"
+        },
+        {
+            "round": 9,
+            "word": "Work"
+        },
+        {
+            "round": 10,
+            "word": "Power"
+        },
+        {
+            "round": 11,
+            "word": "Efficiency"
+        },
+        {
+            "round": 12,
+            "word": "Voltage"
+        },
+        {
+            "round": 13,
+            "word": "Current"
+        },
+        {
+            "round": 14,
+            "word": "Electrical Power"
+        },
+        {
+            "round": 15,
+            "word": "Ohm's Law"
+        },
+        {
+            "round": 16,
+            "word": "Temperature"
+        },
+        {
+            "round": 17,
+            "word": "Thermal Energy Transfer"
+        },
+        {
+            "round": 18,
+            "word": "Conduction"
+        },
+        {
+            "round": 19,
+            "word": "Convection"
+        },
+        {
+            "round": 20,
+            "word": "Radiation"
+        },
+        {
+            "round": 21,
+            "word": "Solid"
+        },
+        {
+            "round": 22,
+            "word": "Liquid"
+        },
+        {
+            "round": 23,
+            "word": "Gas"
+        },
+        {
+            "round": 24,
+            "word": "Phase Change"
+        },
+        {
+            "round": 25,
+            "word": "Series Circuit"
+        },
+        {
+            "round": 26,
+            "word": "Total resistance"
+        }        
     ],
     "L1PHY_Investigative_Approaches": [
 
@@ -26,10 +118,217 @@
 
     ],
     "L2PHY_Mechanics": [
+        {
+            "round": 1,
+            "word": "Translational Motion"
+        },
+        {
+            "round": 2,
+            "word": "Scalar"
+        },
+        {
+            "round": 3,
+            "word": "Vector"
+        },
+        {
+            "round": 4,
+            "word": "Displacement"
+        },
+        {
+            "round": 5,
+            "word": "Velocity"
+        },
+        {
+            "round": 6,
+            "word": "Acceleration"
+        },
+        {
+            "round": 7,
+            "word": "Free Fall"
+        },
+        {
+            "round": 8,
+            "word": "Trajectory"
+        },
+        {
+            "round": 9,
+            "word": "Component Motion"
+        },
+        {
+            "round": 10,
+            "word": "Weight"
+        },
+        {
+            "round": 11,
+            "word": "Normal Force"
+        },
+        {
+            "round": 12,
+            "word": "Friction"
+        },
+        {
+            "round": 13,
+            "word": "Tension"
+        },
+        {
+            "round": 14,
+            "word": "Thrust"
+        },
+        {
+            "round": 15,
+            "word": "Spring Force"
+        },
+        {
+            "round": 16,
+            "word": "Newton's First Law"
+        },
+        {
+            "round": 17,
+            "word": "Newton's Second Law"
+        },
+        {
+            "round": 18,
+            "word": "Newton's Third Law"
+        },
+        {
+            "round": 19,
+            "word": "Torque"
+        },
+        {
+            "round": 20,
+            "word": "Equilibrium"
+        },
+        {
+            "round": 21,
+            "word": "Centripetal Force"
+        },
+        {
+            "round": 22,
+            "word": "Centripetal Acceleration"
+        },
+        {
+            "round": 23,
+            "word": "Momentum"
+        },
+        {
+            "round": 24,
+            "word": "Impulse"
+        },
+        {
+            "round": 25,
+            "word": "Conservation of Momentum"
+        },
+        {
+            "round": 26,
+            "word": "Kinetic Energy"
+        },
+        {
+            "round": 27,
+            "word": "Gravitational Potential Energy"
+        },
+        {
+            "round": 28,
+            "word": "Elastic Potential Energy"
+        },
+        {
+            "round": 29,
+            "word": "Work"
+        },
+        {
+            "round": 30,
+            "word": "Power"
+        },
+        {
+            "round": 31,
+            "word": "Conservation of Energy"
+        }
 
     ],
     "L2PHY_Electricity": [
-
+        {
+            "round": 1,
+            "word": "Uniform Electric Field"
+        },
+        {
+            "round": 2,
+            "word": "Electric Field Strength"
+        },
+        {
+            "round": 3,
+            "word": "Charge"
+        },
+        {
+            "round": 4,
+            "word": "Electric Potential Energy"
+        },
+        {
+            "round": 5,
+            "word": "Work"
+        },
+        {
+            "round": 6,
+            "word": "Voltage"
+        },
+        {
+            "round": 7,
+            "word": "Current"
+        },
+        {
+            "round": 8,
+            "word": "Resistance"
+        },
+        {
+            "round": 9,
+            "word": "Power"
+        },
+        {
+            "round": 10,
+            "word": "Lorentz Force"
+        },
+        {
+            "round": 11,
+            "word": "Conductor"
+        },
+        {
+            "round": 12,
+            "word": "Magnetic Field"
+        },
+        {
+            "round": 13,
+            "word": "Induced Voltage"
+        },
+        {
+            "round": 14,
+            "word": "Kirchhoff's Voltage Law"
+        },
+        {
+            "round": 15,
+            "word": "Kirchhoff's Current Law"
+        },
+        {
+            "round": 16,
+            "word": "Series Circuit"
+        },
+        {
+            "round": 17,
+            "word": "Parallel Circuit"
+        },
+        {
+            "round": 18,
+            "word": "Total Resistance"
+        },
+        {
+            "round": 19,
+            "word": "Parallel Plates"
+        },
+        {
+            "round": 20,
+            "word": "Conservation of Energy"
+        },
+        {
+            "round": 21,
+            "word": "Right-Hand Slap Rule"
+        }
     ],
     "L3PHY_Modern_Physics": [
 
@@ -38,9 +337,148 @@
 
     ],
     "L3PHY_Mechanics": [
-
+        {
+            "round": 1,
+            "word": "Vector"
+        },
+        {
+            "round": 2,
+            "word": "Orbit"
+        },
+        {
+            "round": 3,
+            "word": "Pendulum"
+        },
+        {
+            "round": 4,
+            "word": "Spring"
+        },
+        {
+            "round": 5,
+            "word": "Gravity"
+        },
+        {
+            "round": 6,
+            "word": "Momentum"
+        },
+        {
+            "round": 7,
+            "word": "Velocity"
+        },
+        {
+            "round": 8,
+            "word": "Acceleration"
+        },
+        {
+            "round": 9,
+            "word": "Torque"
+        },
+        {
+            "round": 10,
+            "word": "Resonance"
+        },
+        {
+            "round": 11,
+            "word": "Damping"
+        },
+        {
+            "round": 12,
+            "word": "Centripetal Force"
+        },
+        {
+            "round": 13,
+            "word": "Banked Corner"
+        },
+        {
+            "round": 14,
+            "word": "Vertical Loop"
+        },
+        {
+            "round": 15,
+            "word": "Angular Momentum"
+        },
+        {
+            "round": 16,
+            "word": "Simple Harmonic Motion"
+        },
+        {
+            "round": 17,
+            "word": "Amplitude"
+        },
+        {
+            "round": 18,
+            "word": "Frequency"
+        },
+        {
+            "round": 19,
+            "word": "Impulse"
+        },
+        {
+            "round": 20,
+            "word": "Centre of Mass"
+        }
     ],
     "L3PHY_Electricity": [
+        {
+            "round": 1,
+            "word": "Charging Inductor"
+        },
+        {
+            "round": 2,
+            "word": "RMS Value"
+        },
+        {
+            "round": 3,
+            "word": "Parallel Circuit"
+        },
+        {
+            "round": 4,
+            "word": "Ohm's Law"
+        },
+        {
+            "round": 5,
+            "word": "Internal Resistance"
+        },
+        {
+            "round": 6,
+            "word": "Terminal Voltage"
+        },
+        {
+            "round": 7,
+            "word": "Kirchhoff's Voltage Law"
+        },
+        {
+            "round": 8,
+            "word": "Capacitance"
+        },
+        {
+            "round": 9,
+            "word": "Faraday's Law"
+        },
+        {
+            "round": 10,
+            "word": "Back EMF"
+        },
+        {
+            "round": 11,
+            "word": "Step Down Transformer"
+        },
+        {
+            "round": 12,
+            "word": "Peak Value (for AC)"
+        },
+        {
+            "round": 13,
+            "word": "Phasor Diagram"
+        },
+        {
+            "round": 14,
+            "word": "Current Leads Voltage in a Capacitor"
+        },
+        {
+            "round": 15,
+            "word": "Resonant Frequency"
+        }
 
     ],
     "L3PHY_Waves": [
